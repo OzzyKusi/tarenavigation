@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_calculadora"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Calculadora" />
+        <item
+            android:id="@+id/nav_Sonido"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Musica" />
+        <item
+            android:id="@+id/nav_Pagina"
+            android:icon="@android:drawable/ic_menu_set_as"
+            android:title="Pagina" />
+        <item
+            android:id="@+id/nav_Libros"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="Libros" />
+        <item
+            android:id="@+id/nav_Propuesta"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Propuesta" />
+    </group>
+</menu>

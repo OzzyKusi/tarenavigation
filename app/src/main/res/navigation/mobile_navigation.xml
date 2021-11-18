@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.tarenavigation.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/calculadoraFragment"
+        android:name="com.example.tarenavigation.CalculadoraFragment"
+        android:label="fragment_calculadora"
+        tools:layout="@layout/fragment_calculadora" />
+    <fragment
+        android:id="@+id/sonidoFragment"
+        android:name="com.example.tarenavigation.SonidoFragment"
+        android:label="fragment_sonido"
+        tools:layout="@layout/fragment_sonido" />
+    <fragment
+        android:id="@+id/paginaFragment"
+        android:name="com.example.tarenavigation.PaginaFragment"
+        android:label="fragment_pagina"
+        tools:layout="@layout/fragment_pagina" />
+    <fragment
+        android:id="@+id/itemFragment"
+        android:name="com.example.tarenavigation.ItemFragment"
+        android:label="fragment_item_list"
+        tools:layout="@layout/fragment_item_list" />
+    <fragment
+        android:id="@+id/librosFragment"
+        android:name="com.example.tarenavigation.LibrosFragment"
+        android:label="fragment_libros"
+        tools:layout="@layout/fragment_libros" />
+
+</navigation>
